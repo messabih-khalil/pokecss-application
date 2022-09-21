@@ -31,7 +31,7 @@
 				</span>
 			</div>
 			<!-- tech -->
-			<div class="tech grid-xl-5 grid-lg-5 grid-md-3 grid-sm-3 grid-xs-2 gap-3 mgt-2 mgb-2">
+			<div class="tech grid-xl-5 grid-lg-5 grid-md-5 grid-sm-5 grid-xs-5 gap-3 mgt-2 mgb-2">
 				<div class="tech-image-box">
 					<img src={react} alt="" />
 				</div>
@@ -102,8 +102,41 @@
 		.hero-image {
 			width: 250px;
 		}
-		.tech-image-box{
+		.tech {
+			gap: 15px;
+		}
+		.tech-image-box {
+			height: 50px;
+			width: 50px;
+		}
+
+		.tech-image-box img {
+			width: 50px;
+			height: 50px;
+		}
+	}
+	@media screen and (max-width: 320px) {
+		.tech-image-box {
+			height: 40px;
+			width: 40px;
+		}
+
+		.tech-image-box img {
+			width: 40px;
+			height: 40px;
+		}
+	}
+	@media screen and (max-width: 260px) {
+		.hero-image {
+			width: 200px;
+		}
+		.tech {
 			display: none;
+		}
+	}
+	@media (min-width: 421px) {
+		.tech {
+			gap: 15px;
 		}
 	}
 </style>
