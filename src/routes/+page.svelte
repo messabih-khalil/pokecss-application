@@ -65,16 +65,14 @@
 	</div>
 </div>
 
-<style lang="scss">
-	.body {
-		height: 100vh;
-	}
+<style>
+	
 	.hero {
-		height: 95vh;
+		height: 90vh;
 	}
 
 	.hero-section {
-		height: 91vh;
+		height: 90vh;
 	}
 
 	.hero-text {
@@ -115,6 +113,18 @@
 	}
 
 	@media screen and (max-width: 420px) {
+		.hero{
+			height: fit-content;
+			margin: 5rem 0;
+		}
+
+		.hero-section {
+			height: fit-content;
+		}
+		.header-hero{
+			font-size: 2.5rem;
+			font-weight: 700;
+		}
 		
 		.tech {
 			gap: 15px;
@@ -128,8 +138,11 @@
 			width: 50px;
 			height: 50px;
 		}
+
+		
 	}
 	@media screen and (max-width: 320px) {
+		
 		.tech-image-box {
 			height: 40px;
 			width: 40px;

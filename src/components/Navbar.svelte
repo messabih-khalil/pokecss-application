@@ -61,5 +61,9 @@
 		.github-source span{
 			display: none;
 		}
+
+		.logo img{
+			width: 100px;
+		}
 	}
 </style>
