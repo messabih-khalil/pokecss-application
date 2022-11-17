@@ -1,5 +1,5 @@
 <script>
-    // import file from '../assets/pokecss.zip'
+    import file from '../assets/pokecss.zip'
 </script>
 
 <!-- download button -->
