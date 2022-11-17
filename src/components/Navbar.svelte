@@ -1,6 +1,5 @@
 <script>
 	import pokeLogo from '../assets/logo.png';
-	import DownloadButton from './DownloadButton.svelte';
 </script>
 
 <!-- navbar -->
@@ -17,13 +16,12 @@
 				<!-- github icon -->
 				<a
 					class="bg-yellow-400 github-source font-2x font-600 pdl-3 pdr-3 pd-1 pdb-1 flex align-center mgr-2 br-2x-solid-black black"
-					href="https://github.com/messabih-khalil/pokecss-application"
+					href="https://github.com/messabih-khalil/Pokecss"
 				>
 					<i class="ri-github-fill mgr-1 font-3x" />
 					<span> Source </span>
 				</a>
 
-				<DownloadButton />
 			</div>
 		</div>
 	</div>
@@ -32,6 +30,7 @@
 <style>
 	nav {
 		height: 10vh;
+		filter: drop-shadow(0px 1px 5px rgb(202, 202, 202));
 	}
 	.navbar {
 		width: 100%;

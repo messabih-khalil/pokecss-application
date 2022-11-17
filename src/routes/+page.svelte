@@ -2,29 +2,30 @@
 	// import css
 	import '../assets/main.css';
 
-	import pokeLogo from '../assets/logo.png';
-
 	import 'remixicon/fonts/remixicon.css';
 
 	import Navbar from '../components/Navbar.svelte';
 
 	import DownloadButton from '../components/DownloadButton.svelte';
 
-	import react from '../assets/tech-icons/react.png';
-	import vue from '../assets/tech-icons/vue.png';
-	import next from '../assets/tech-icons/next.png';
-	import nuxt from '../assets/tech-icons/nuxt.png';
-	import svelte from '../assets/tech-icons/svelte.png';
 </script>
 
 <div class="hidden body">
 	<Navbar />
 	<!-- hero main -->
-	<div class="bg-yellow-400 hero">
+	<div class="hero">
 		<div class="container hero-section flex align-center justify-center column">
 			<div class="content text-center flex column justify-center align-center">
-				<img src={pokeLogo} class="hero-image" alt="" />
-				<span class="hero-text font-500">
+				<p class="header-hero">
+					<span class="d-color">
+						PokeCss </span> : make <span class="d-color">
+							design
+						</span> with simple <span class="d-color">
+							css
+						</span>Utility
+					
+				</p>
+				<span class="hero-text font-500 grey-600">
 					Free , open source library provides over then 390,000 css class
 					<br />
 					to customize and fast web interfaces design
@@ -33,26 +34,26 @@
 			<!-- tech -->
 			<div class="tech grid-xl-5 grid-lg-5 grid-md-5 grid-sm-5 grid-xs-5 gap-3 mgt-2 mgb-2">
 				<div class="tech-image-box">
-					<img src={react} alt="" />
+					<img src=https://github.com/get-icon/geticon/raw/master/icons/angular-icon.svg alt="" />
 				</div>
 				<div class="tech-image-box">
-					<img src={vue} alt="" />
+					<img src=https://github.com/get-icon/geticon/raw/master/icons/react.svg alt="" />
 				</div>
 				<div class="tech-image-box">
-					<img src={next} alt="" />
+					<img src=https://github.com/get-icon/geticon/raw/master/icons/nextjs.svg alt="" />
 				</div>
 				<div class="tech-image-box">
-					<img src={nuxt} alt="" />
+					<img src=https://github.com/get-icon/geticon/raw/master/icons/vue.svg alt="" />
 				</div>
 				<div class="tech-image-box">
-					<img src={svelte} alt="" />
+					<img src=https://github.com/get-icon/geticon/raw/master/icons/nuxt-icon.svg alt="" />
 				</div>
 			</div>
 			<!-- buttons -->
 
 			<div class="buttons mgt-3 flex">
 				<a
-					class="download-button font-2x font-600 pdl-7 pdr-7 pd-1 pdb-1 flex align-center mgr-2 flex align-center white bg-black"
+					class="font-600 pdl-10 pdr-10 pdt-2 pdb-2 flex align-center mgr-2 flex align-center white bg-black"
 					href="/docs"
 				>
 					<i class="ri-git-repository-line mgr-1" />
@@ -81,8 +82,19 @@
 		margin: 1rem 0;
 	}
 
-	.hero-image {
-		width: 400px;
+	.header-hero{
+		font-size: 4.5rem;
+		font-weight: 700;
+	}
+
+	.d-color{
+		background: linear-gradient(to right,#FFE031,#4dd0f8);
+		background-size: 100%;
+		background-clip: text;
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+		-webkit-text-fill-color: transparent; 
+		-moz-text-fill-color: transparent;
 	}
 
 	.tech-image-box {
@@ -98,10 +110,12 @@
 		height: 70px;
 	}
 
+	.buttons a{
+		font-size: 1.2rem;
+	}
+
 	@media screen and (max-width: 420px) {
-		.hero-image {
-			width: 250px;
-		}
+		
 		.tech {
 			gap: 15px;
 		}
@@ -127,9 +141,7 @@
 		}
 	}
 	@media screen and (max-width: 260px) {
-		.hero-image {
-			width: 200px;
-		}
+		
 		.tech {
 			display: none;
 		}
