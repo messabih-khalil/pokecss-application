@@ -1,13 +1,15 @@
-<script>
+<!-- <script>
     import file from '../assets/pokecss.zip'
-</script>
+</script> -->
 
 <!-- download button -->
+
+<!-- {file} -->
 
 <a
 	
 	class="bg-yellow-400 download-button font-600 pdl-10 pdr-10 pdt-2 pdb-2 flex align-center br-2x-solid-black black"
-	href={file}
+	href='*'
     download="pokecss.zip"
 >
 	<i class="ri-download-2-line mgr-1" />

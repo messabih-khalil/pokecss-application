@@ -69,6 +69,7 @@
 	
 	.hero {
 		height: 90vh;
+		padding-top: 2rem;
 	}
 
 	.hero-section {
@@ -116,6 +117,7 @@
 		.hero{
 			height: fit-content;
 			margin: 5rem 0;
+			padding-top: 5rem;
 		}
 
 		.hero-section {
