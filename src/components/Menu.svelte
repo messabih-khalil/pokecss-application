@@ -53,10 +53,11 @@
 
 <style>
 	.menu {
-		height: 93vh;
+		height: 90vh;
 		position: fixed;
 		width: 18%;
 		transition: 0.5s;
+		bottom: 0;
 	}
 	.menu-item {
 		height: 90vh;

@@ -12,7 +12,7 @@
 		<div class="menu">
 			<Menu />
 		</div>
-		<main class="pdt-5 pdb-5 pdl-5 pdr-5">
+		<main class="pdb-5 pdl-5 pdr-5">
 			<slot />
 		</main>
 	</div>
@@ -23,25 +23,28 @@
 		display: grid;
 		grid-template-columns: 18% 82%;
 	}
+	main {
+		padding-top: 8rem;
+	}
 	@media only screen and (min-width: 980px) and (max-width: 1200px) {
 		.layout {
 			grid-template-columns: 20% 80%;
 		}
 	}
 
-	@media only screen and (min-width:721px) and (max-width: 979px) {
+	@media only screen and (min-width: 721px) and (max-width: 979px) {
 		.layout {
 			grid-template-columns: 25% 75%;
 		}
 	}
 
 	@media only screen and (max-width: 720px) {
-		.layout{
+		.layout {
 			display: block;
 		}
 
-		.layout .menu{
-			width:600px;
+		.layout .menu {
+			width: 600px;
 		}
 	}
 </style>

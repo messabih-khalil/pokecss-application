@@ -4,7 +4,7 @@
 
 <div>
 	<div class="head">
-		<p class="font-4x font-500  mgb-4">Font Weight</p>
+		<p class="font-4x font-500  mgb-4">Font Style</p>
 	</div>
 	<div class="text-align">
 		<p class="mgt-1">

@@ -31,6 +31,9 @@
 	nav {
 		height: 10vh;
 		filter: drop-shadow(0px 1px 5px rgb(202, 202, 202));
+		position: fixed;
+		top: 0;
+		width: 100%;
 	}
 	.navbar {
 		width: 100%;
